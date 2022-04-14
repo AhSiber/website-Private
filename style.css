@@ -169,14 +169,13 @@ main{
 
 .biographu{
     font-family: 'b-yekan';
-    width: 700px;
+    width: 310px;
     border: 1px solid black;
     padding: 30px;
     direction: rtl;
     border-radius: 8px;
     display: block; 
     margin: 10px auto;
-    /* position: relative; */
 }
 
     .fa-telegram{ 

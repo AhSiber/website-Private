@@ -169,14 +169,14 @@ main{
 
 .biographu{
     font-family: 'b-yekan';
-    width: 310px;
+    width: fit-content;
     border: 1px solid black;
     padding: 30px;
     direction: rtl;
     border-radius: 8px;
     display: block; 
     margin: 10px auto;
-}
+} 
 
     .fa-telegram{ 
         font-size: 25px;
@@ -473,6 +473,6 @@ img {
 @media screen and (min-height:802px){
 
     .biographu{ 
-        width:300px;
+        width: 290px;
     } 
 }

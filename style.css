@@ -97,24 +97,6 @@ ul li:hover a{
     transition: 0.3s;
 }
 
-ul li::before{
-    content: ''; 
-    background-color: #00000027;
-    opacity: 5;
-    position: absolute; 
-    left: 0px; 
-    top: 0px; 
-    width: 0px;
-    transition: 0.7s ease-in;
-    height: 100%;
-    border-bottom: 1px solid #0000004d;
-    border-radius: 20px;
-}
-
-ul li:hover::before{ 
-    width: 100%;
-}
-
 main{ 
     background-color: #20dd69de;
     margin-top: 20px;

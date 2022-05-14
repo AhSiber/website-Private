@@ -28,6 +28,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     background: #f4f4f4;
+    scroll-behavior: auto;
 }
 ol, ul {
 	list-style: none;
@@ -311,6 +312,10 @@ blockquote{
     font-weight: bold;
 }
 
+.html-and-css:invalid{ 
+    background-color: #2196F3;
+}
+
 .fa-html5{ 
     color: red;
 }
@@ -474,5 +479,5 @@ img {
 
     .biographu{ 
         width: 290px;
-    } 
+    }
 }

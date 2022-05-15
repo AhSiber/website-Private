@@ -409,53 +409,6 @@ img {
     color: white;
 }
 
-.artcal-posr{ 
-    position: relative;
-    background-color: snow;
-    width: 300px; 
-    padding: 10px;
-    height: 250px;
-    display: flex;
-    transition: 0.4s;
-    margin: 20px auto;
-    cursor: pointer;
-}
-
-.artcal-posr:hover{
-    transition: 0.3s; 
-    transform: scale(1.030);
-}
-
-.caption-imges-div-artical-post{ 
-    font-family: 'b-yekan';
-    position: absolute;
-    top: 65%;
-    font-size: small;
-    direction: rtl;
-    right: 12px;
-    overflow: auto;
-    line-height: 15px;
-}  
-.fa-bookmark{ 
-    position: absolute;
-    top: 90%;
-    left: 15px;
-}
-
-.imges-div-artcal-post{ 
-    position: absolute; 
-    left: 0%;
-    top: 0px;
-    width: 100%;;
-}
-
-.span-imges-div-artical{ 
-    font-size: 15px;
-    position: absolute;
-    top: 85%;
-    color: #333333;
-    left: 80%;
-}
 
 @media screen and (min-height:802px){
 

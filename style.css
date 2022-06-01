@@ -1,5 +1,4 @@
-@charset "UTF-8"; 
-
+@charset "UTF-8";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -9,8 +8,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -21,7 +20,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -46,15 +45,15 @@ table {
 	border-spacing: 0;
 }
 
-/* font face iranin to page and English */ 
+/* font face iranin to page and English */
 @font-face {
     font-family: 'b-yekan';
-    src: url('fonts/iranin/yekan.ttf') format('truetype'); 
+    src: url('fonts/iranin/yekan.ttf') format('truetype');
     src: url('fonts/iranin/yekan.eot') format('eot');
     src: url('fonts/iranin/yekan.woff') format('woff');
 }
 
-/* font English tp page */ 
+/* font English tp page */
 @font-face {
     font-family: 'dragon';
     src: url('fonts/English/Deron-Light.ttf') format('truetype');
@@ -71,19 +70,19 @@ table {
 }
 
 *::selection{
-    background-color: #ffd900b7; 
+    background-color: #ffd900b7;
     color: black;
 }
 
 
-ul li { 
-    font-size: 20px; 
+ul li {
+    font-size: 20px;
     font-family: 'dragon';
     display: inline-block;
     border-radius: 5px;
     padding: 6px;
     margin: 10px;
-    font-weight: bold; 
+    font-weight: bold;
     position: relative;
     text-transform: capitalize;
     z-index: 100;
@@ -92,38 +91,38 @@ ul li {
     font-weight: 600;
 }
 
-ul li:hover a{ 
+ul li:hover a{
     color: white;
     transition: 0.3s;
 }
 
-main{ 
+main{
     background-color: #20dd69de;
     margin-top: 20px;
 }
 
 /* header page */
 
-#header-page{ 
-    background-color: #20dd69de; 
+#header-page{
+    background-color: #20dd69de;
     box-shadow: 1px 0px 20px 10px #20dd6975;
     position: fixed;
     width: 100%;
 }
 
-/* avater me */ 
-#avatar-main{ 
+/* avater me */
+#avatar-main{
     display: block;
     margin: auto;
     margin-top: 0px;
-    padding: 0px; 
-    border-radius: 15px; 
+    padding: 0px;
+    border-radius: 15px;
     width: 290px !important;
     height: 290px;
     transition: 0.3s;
 }
 
-#avatar-main:hover{ 
+#avatar-main:hover{
     transition: 0.3s;
     cursor: pointer;
     border-radius: 50px;
@@ -132,11 +131,11 @@ main{
 
 
 
-.title-bio-graphy { 
+.title-bio-graphy {
     font-size: x-large;
 }
 
-.i-am{ 
+.i-am{
     line-height: 25px;
     color: #3d4042;
 }
@@ -145,7 +144,7 @@ main{
     content: '”';
     font-size: 18px;
 }
-.i-am::after{ 
+.i-am::after{
     content: '“';
     font-size: 18px;
 }
@@ -157,11 +156,11 @@ main{
     padding: 30px;
     direction: rtl;
     border-radius: 8px;
-    display: block; 
+    display: block;
     margin: 10px auto;
-} 
+}
 
-    .fa-telegram{ 
+    .fa-telegram{
         font-size: 25px;
         animation: tou-telegram 1s infinite;
         color: #1313b9af;
@@ -172,19 +171,19 @@ main{
         100% {box-shadow:  2px 1px 12px #0000ff69; border-radius: 100px; padding: 10px;}
     }
 
-    .fa-telegram:hover{ 
+    .fa-telegram:hover{
         color: #3d4042;
         transition: 0.3s;
         transform: rotate(10deg);
     }
 /* --------------------------- */
-    .fa-youtube{ 
+    .fa-youtube{
         font-size: 25px;
         color: #ff0000b9;
         animation: youtubeee 1s infinite;
     }
 
-    .fa-youtube:hover{ 
+    .fa-youtube:hover{
         color: red;
         transition: 0.4s;
         transform: rotate(10deg);
@@ -195,7 +194,7 @@ main{
         100% {box-shadow:  2px 1px 12px #ff000041; border-radius: 100px; padding: 10px;}
     }
 /* --------------------------------------- */
-    .fa-twitter{ 
+    .fa-twitter{
         font-size: 25px;
         color: #0000ffa4;
         animation: twi 1s infinite;
@@ -204,17 +203,17 @@ main{
     }
 
 
-    .fa-twitter:hover{ 
-        color: blue; 
+    .fa-twitter:hover{
+        color: blue;
         transition: 0.4s;
         transform: rotate(10deg);
-    } 
+    }
     @keyframes twi {
         0% {box-shadow: 1px 1px 1px #0000ffb7; border-radius: 100px;padding: 10px;}
         100% {box-shadow:  2px 1px 12px #0000ff57; border-radius: 100px; padding: 10px;}
     }
 /* ------------------------------- */
-    .fa-github{ 
+    .fa-github{
         font-size: 25px;
         color: #000000da;
         animation: git 1s infinite;
@@ -231,7 +230,7 @@ main{
         100% {box-shadow:  2px 1px 12px #00000054; border-radius: 100px; padding: 10px;}
     }
 
-    .fa-location-dot{ 
+    .fa-location-dot{
         font-size: 25px;
         color: #000000da;
         animation: localshan 1s infinite;
@@ -249,14 +248,14 @@ main{
     }
 
 
-a{ 
+a{
     color: #3d4042;
     font-weight: bold;
-    text-decoration: none; 
+    text-decoration: none;
 
 }
 
-blockquote{ 
+blockquote{
     padding-right: 4px;
     border-right: 3px solid #2196F3;
     border-radius: 4px;
@@ -264,18 +263,18 @@ blockquote{
 }
 
 
-.attchment{ 
+.attchment{
     background-color: #f4f4f4;
     width: 100%;
     height: 300px;
     margin: 0px auto;
     margin-top: 30px;
     border-radius: 4px;
-    
+
 }
 
-.progressss{ 
-    background-color: white; 
+.progressss{
+    background-color: white;
     width: 350px;
     padding: 0px;
     display: block;
@@ -283,37 +282,37 @@ blockquote{
     border: none;
 }
 
-.progressss:hover{ 
+.progressss:hover{
     background-color: #2195f321;
 }
 
-.html-and-css{ 
+.html-and-css{
     text-indent: 40%;
     padding: 10px;
     font-family: dragon;
     font-weight: bold;
 }
 
-.html-and-css:invalid{ 
+.html-and-css:invalid{
     background-color: #2196F3;
 }
 
-.fa-html5{ 
+.fa-html5{
     color: red;
 }
 
-.fa-python{ 
+.fa-python{
     color: #000cb463;
 }
 
 .fa-network-wired{
     color: slategray;
 }
-.fa-database{ 
+.fa-database{
     color: gold;
 }
 
-.prokect{ 
+.prokect{
     background-color: #f4f4f4;
     width: 100%;
     height: 350px;
@@ -322,21 +321,21 @@ blockquote{
     position: relative;
 }
 
-    #conent{ 
+    #conent{
         font-family: 'Arez';
         font-size:40px;
         text-align: center;
         color: #3d4042;
     }
 
-.fa-envelope{ 
+.fa-envelope{
     color: #2196F3;
     animation: gmail-rover 1s infinite;
     /* margin-left: 43%;
     margin-top: 30px; */
 }
 
-    .fa-envelope:hover{ 
+    .fa-envelope:hover{
         color: #ff0000a2;
         transition: 0.4s;
         transform: rotate(10deg);
@@ -348,26 +347,26 @@ blockquote{
     }
 
 
-#gamil{ 
-    position: absolute; 
+#gamil{
+    position: absolute;
     bottom: 212px;
     left:560px;
     font-family: 'dragon';
 }
 
 
-.fa-github,.fa-telegram,.fa-twitter,.fa-youtube,.fa-envelop{ 
+.fa-github,.fa-telegram,.fa-twitter,.fa-youtube,.fa-envelop{
     display: inline-block;
     margin-top: 5px;
     font-size: large !important;
 }
 
-#ver-and{ 
+#ver-and{
     text-align: center;
     display: block;
 }
 
-img { 
+img {
     border-radius: 12px;
     width: 200px;
     height: 150px;
@@ -380,11 +379,11 @@ img {
     border-radius: 12px;
     color: rgba(0, 0, 0, 0.76);
     text-align: center;
-} 
+}
 
-.imges-cover{ 
-    position: relative; 
-    float: left; 
+.imges-cover{
+    position: relative;
+    float: left;
     border: 1px solid black;
 
     direction: rtl;
@@ -398,21 +397,20 @@ img {
     transition: 0.2s;
 }
 
-.imges-cover:hover{ 
+.imges-cover:hover{
     transform: scale(1.1);
     transition: 0.3s;
 }
 
-.text-cover:hover{ 
+.text-cover:hover{
     background-color: #2196F3;
-    transition: 0.4s; 
+    transition: 0.4s;
     color: white;
 }
 
-
 @media screen and (min-height:802px){
 
-    .biographu{ 
+    .biographu{
         width: 290px;
     }
 }

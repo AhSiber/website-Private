@@ -408,11 +408,13 @@ img {
     color: white;
 }
 
+.fa-php{
+    color:rgba(62, 62, 235, 0.836);
+}
+
 @media screen and (min-height:802px){
 
     .biographu{
         width: 290px;
     }
 }
-
-

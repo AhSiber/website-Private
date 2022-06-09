@@ -152,7 +152,7 @@ main{
 .biographu{
     font-family: 'b-yekan';
     width: fit-content;
-    border: 1px solid black;
+    text-align: justify;
     padding: 30px;
     direction: rtl;
     border-radius: 8px;
@@ -282,8 +282,12 @@ blockquote{
     border: none;
 }
 
-.progressss:hover{
-    background-color: #2195f321;
+.progressss::-webkit-progress-value{
+    background-color: #00BFFF;
+}
+
+.progressss::-webkit-progress-bar{
+    background-color: snow;
 }
 
 .html-and-css{

@@ -110,12 +110,9 @@ header .artcal{
    height: 200px;
    position: relative;
    background-color: #f4f4f4;
-   margin: 10px;
+   margin:10px;
 }
 
-.box-over:hover{
-   opacity: 0.7;
-}
 
 .emoky_{
    position: absolute;
@@ -129,22 +126,7 @@ header .artcal{
    border-bottom-right-radius: 50px;
 }
 
-.box-over::before{
-   content: '';
-   transition: 1s;
-   position: absolute;
-   left: -0%;
-   top: 0px;
-   width: 0%;
-   height: 100%;
-   background-color: #000000bb;
-}
-.box-over:hover::before{
-   width: 100%;
-}
-.box-over:hover .emoky_{
-   visibility: visible;
-}
+
 .imge-s{
    width: 250px;
    height: 100%;
@@ -158,17 +140,21 @@ header .artcal{
    direction: rtl;
    font-size: 12px;
    font-weight: 400;
-   color: white;
+
+   color: black;
+   background-color: white;
+   padding: 4px;
+   width: 100%;
+
    position: absolute;
-   top: 65%;
-   right: 10px;
-   overflow: hidden;
-   visibility: hidden;
+   /* top: 65%; */
+   /* right: 0px; */
+   display: block;
+   z-index: 100;
+   overflow: auto;
+   text-align: center;
 }
 
-.box-over:hover .text-over_line{
-   visibility: visible;
-}
 
 
 .fa-angle-left{
@@ -187,6 +173,8 @@ a{
    display: none;
 }
 
+
+
 @media only screen and (max-width:446px){
 
    .artcal{
@@ -195,7 +183,7 @@ a{
 
    .headers{
       padding: 3px;
-      width: 100%;
+      width: 98%;
       height: 35px;
    }
 
@@ -215,7 +203,7 @@ a{
    .box-over{
       display: block;
       margin: auto;
-      margin-top: 5px;
+      margin-top: 10px;
    }
 
    .ahurarasoli{

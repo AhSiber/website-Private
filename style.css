@@ -103,7 +103,7 @@ main{
 
 /* header page */
 
-#header-page{
+#header-page:not(.contect){
     background-color: #20dd69de;
     box-shadow: 1px 0px 20px 10px #20dd6975;
     position: fixed;
@@ -414,6 +414,10 @@ img {
 
 .fa-php{
     color:rgba(62, 62, 235, 0.836);
+}
+
+.fa-house-chimney{
+    border-radius: 0px;
 }
 
 @media screen and (min-height:802px){

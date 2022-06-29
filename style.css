@@ -72,10 +72,10 @@ table {
 
 @font-face {
     font-family: 'sahel';
-    src: url('/font-iran/Sahel.ttf') format('truetype');
-    src : url('/font-iran/Sahel.eot') format('eot');
-    src: url('/font-iran/Sahel.woff') format('woff');
-    src: url('/font-iran/Sahel.woff2') format('woff2');
+    src: url('font-iran/Sahel.ttf') format('truetype');
+    src : url('font-iran/Sahel.eot') format('eot');
+    src: url('font-iran/Sahel.woff') format('woff');
+    src: url('font-iran/Sahel.woff2') format('woff2');
 }
 
 *::selection{

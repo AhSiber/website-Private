@@ -69,6 +69,15 @@ table {
     src: url('fonts/iranin/Araz-Persian-Font.ttf');
 }
 
+
+@font-face {
+    font-family: 'sahel';
+    src: url('/font-iran/Sahel.ttf') format('truetype');
+    src : url('/font-iran/Sahel.eot') format('eot');
+    src: url('/font-iran/Sahel.woff') format('woff');
+    src: url('/font-iran/Sahel.woff2') format('woff2');
+}
+
 *::selection{
     background-color: #ffd900b7;
     color: black;
@@ -150,7 +159,7 @@ main{
 }
 
 .biographu{
-    font-family: 'b-yekan';
+    font-family: 'sahel';
     width: fit-content;
     text-align: justify;
     padding: 30px;
@@ -163,7 +172,8 @@ main{
     .fa-telegram{
         font-size: 25px;
         animation: tou-telegram 1s infinite;
-        color: #1313b9af;
+        color: #18b4f1ad;
+        transition: 0.3s;
     }
 
     @keyframes tou-telegram{
@@ -172,21 +182,22 @@ main{
     }
 
     .fa-telegram:hover{
-        color: #3d4042;
+        color: white;
         transition: 0.3s;
-        transform: rotate(10deg);
+        background-color: #0051ff98;
     }
 /* --------------------------- */
     .fa-youtube{
         font-size: 25px;
         color: #ff0000b9;
         animation: youtubeee 1s infinite;
+        transition: 0.3s;
     }
 
     .fa-youtube:hover{
-        color: red;
-        transition: 0.4s;
-        transform: rotate(10deg);
+        color: white;
+        background-color: red;
+        transition: 0.3s;
     }
 
     @keyframes youtubeee {
@@ -196,17 +207,18 @@ main{
 /* --------------------------------------- */
     .fa-twitter{
         font-size: 25px;
-        color: #0000ffa4;
+        color: #0167ffb4;
         animation: twi 1s infinite;
-        transition: 0.4s;
+        transition: 0.3s;
         transform: rotate(10deg);
     }
 
 
     .fa-twitter:hover{
-        color: blue;
-        transition: 0.4s;
-        transform: rotate(10deg);
+        color: white;
+        background-color: #0167ff8a;
+        transition: 0.3s;
+
     }
     @keyframes twi {
         0% {box-shadow: 1px 1px 1px #0000ffb7; border-radius: 100px;padding: 10px;}
@@ -217,12 +229,13 @@ main{
         font-size: 25px;
         color: #000000da;
         animation: git 1s infinite;
+        transition: 0.3s;
     }
 
     .fa-github:hover{
-        color: black;
-        transition: 0.4s;
-        transform: rotate(10deg);
+        color: white;
+        transition: 0.3s;
+        background-color:#000000d7;
     }
 
     @keyframes git {
@@ -234,12 +247,13 @@ main{
         font-size: 25px;
         color: #000000da;
         animation: localshan 1s infinite;
+        transition: 0.3s;
     }
 
     .fa-location-dot:hover{
-        color: #0fd45b;
+        color: white;
+        background-color: springgreen;
         transition: 0.4s;
-        transform: rotate(10deg);
     }
 
     @keyframes localshan {
@@ -260,6 +274,7 @@ blockquote{
     border-right: 3px solid #2196F3;
     border-radius: 4px;
     clear: both;
+    font-family: 'sahel';
 }
 
 
@@ -335,14 +350,13 @@ blockquote{
 .fa-envelope{
     color: #2196F3;
     animation: gmail-rover 1s infinite;
-    /* margin-left: 43%;
-    margin-top: 30px; */
+    transition: 0.3s;
 }
 
     .fa-envelope:hover{
-        color: #ff0000a2;
-        transition: 0.4s;
-        transform: rotate(10deg);
+        color: white;
+        transition: 0.3s;
+        background-color: #2195f39a;
     }
 
     @keyframes  gmail-rover{

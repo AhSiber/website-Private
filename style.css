@@ -434,6 +434,44 @@ img {
     border-radius: 0px;
 }
 
+.toltip{
+    position: relative;
+    display: inline-block;
+}
+
+.toltip .toltip-text{
+    display: none;
+    width: 150px;
+    background-color: #ffffffbd;
+    border: black;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top:145%;
+    margin-left: -70px;
+}
+
+.toltip .toltip-text::after {
+    content: "";
+    position: absolute;
+    top: -76%;
+    left: 45%;
+    transform: rotate(180deg);
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+   }
+
+   .toltip:hover .toltip-text {
+    display: block;
+   }
+
+
 @media screen and (min-height:802px){
 
     .biographu{

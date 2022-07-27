@@ -167,6 +167,7 @@ main{
     border-radius: 8px;
     display: block;
     margin: 10px auto;
+    max-width: 600px;
 }
 
     .fa-telegram{
